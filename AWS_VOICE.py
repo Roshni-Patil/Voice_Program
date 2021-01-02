@@ -7,20 +7,19 @@ pyttsx3.speak("Hello")
 
 def design1():
         os.system(" cls ")
-        os.system(" tput bold ")
         print("=============================================================================================================================================================")
-        os.system(" tput  setaf 1 ") 
+         
         print("\t\t\t\t----------------->Your welcome in this AWS Automation Menu Program<----------------\t\t")
         pyttsx3.speak("Your welcome in this AWS Automation Menu Program")
-        os.system(" tput  setaf 3 ")
+        
         print("=============================================================================================================================================================\n")
-        os.system(" tput setaf 77 ")
+        
 
 def design2():
-        os.system(" tput setaf 68 ")
+        
         print("AWS SERVICES ")
         print(" ------------------------------------------------\n")
-        os.system(" tput setaf 78 ") 
+         
 
 def aws():
 	print("""
